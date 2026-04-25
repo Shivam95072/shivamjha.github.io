@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio | Shivam Jha</title>
+    <meta name="description"
+        content="Personal portfolio of a cybersecurity student showcasing skills, projects, and certifications.">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-grid"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="glass-panel">
+        <div class="nav-brand"><span class="neon-text">SYS</span>_ADMIN</div>
+        <ul class="nav-links">
+            <li><a href="#home">// Home</a></li>
+            <li><a href="#about">// About</a></li>
+            <li><a href="#skills">// Skills</a></li>
+            <li><a href="#projects">// Projects</a></li>
+            <li><a href="#certifications">// Certs</a></li>
+            <li><a href="#contact">// Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content floating-element">
+            <p class="code-comment">/* Initializing session... */</p>
+            <h1 class="hero-title">HELLO, I'M <br><span class="neon-text">SHIVAM JHA</span></h1>
+            <h2 class="hero-subtitle">&gt; Cybersecurity Student & Threat Hunter</h2>
+            <p class="hero-desc">Defending the digital frontier. Specializing in network security, digital forensics,
+                and proactive defense mechanisms.</p>
+            <div class="hero-actions">
+                <a href="resume1.pdf" id="download-cv" class="cyber-button" download="Shivam_Jha.pdf">
+                    <span class="button-text">DOWNLOAD_CV.pdf</span>
+                    <span class="button-glitch"></span>
+                </a>
+                <a href="#projects" class="cyber-button secondary">
+                    <span class="button-text">VIEW_PROJECTS</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-graphic">
+            <div class="shield-container floating-element-delay">
+                <!-- Abstract shield graphic using CSS -->
+                <div class="shield-outer">
+                    <div class="shield-inner">
+                        <!-- Replace 'profile.jpg' with your actual image file name -->
+                        <img src="profile.jpeg" alt="Profile Photo" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="neon-text">01.</span> About Me</h2>
+            <div class="about-grid glass-panel">
+                <div class="about-text">
+                    <p>I am a passionate cybersecurity student dedicated to understanding and mitigating modern cyber
+                        threats. My journey started with a fascination for how systems communicate, which quickly
+                        evolved into a drive to secure them.</p>
+                    <p>When I'm not studying or participating in CTF (Capture The Flag) competitions, I am analyzing
+                        malware samples in my home lab or exploring the latest zero-day vulnerabilities. I believe in a
+                        proactive approach to security: to defend a system, you must understand how to break it.</p>
+                    <p>As a fresher in the industry, I am highly motivated and currently open to opportunities in roles such as <strong>Networking</strong>, <strong>SOC Analyst</strong>, or <strong>IT Support</strong>. I am eager to apply my academic knowledge and hands-on lab experience to real-world security challenges.</p>
+                </div>
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="title">user@kali: ~</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">user@kali:~$</span> whoami</p>
+                        <p class="output">cyber_student</p>
+                        <p><span class="prompt">user@kali:~$</span> cat interests.txt</p>
+                        <p class="output">- Penetration Testing<br>- Malware Analysis<br>- Incident Response<br>-
+                            Cryptography</p>
+                        <p><span class="prompt">user@kali:~$</span> <span class="cursor">_</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="neon-text">02.</span> Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-panel hover-glow">
+                    <div class="skill-icon python-icon"></div>
+                    <h3>Python</h3>
+                    <p>Scripting for automation, tool development, and data analysis in security contexts.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-panel hover-glow">
+                    <div class="skill-icon sql-icon"></div>
+                    <h3>SQL & Database Security</h3>
+                    <p>Database management, SQL injection detection, and secure data storage practices.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-panel hover-glow">
+                    <div class="skill-icon network-icon"></div>
+                    <h3>Network Security</h3>
+                    <p>Traffic analysis, firewall configuration, IDS/IPS management, and packet sniffing (Wireshark).
+                    </p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-panel hover-glow">
+                    <div class="skill-icon forensics-icon"></div>
+                    <h3>Digital Forensics</h3>
+                    <p>Disk imaging, memory analysis, and recovering compromised data for incident response.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="neon-text">03.</span> Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-panel">
+                    <div class="project-header">
+                        <div class="folder-icon">📁</div>
+                        <div class="project-links">
+                            <a href="https://github.com/" target="_blank" aria-label="GitHub">🔗</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Ransomware Detection & Prevention System</h3>
+                    <div class="project-desc">
+                        <p>A Python-based honeypot system that monitors file system changes in real-time. It uses
+                            behavioral analysis to detect mass-encryption events typical of ransomware and automatically
+                            isolates the compromised segment from the network.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Watchdog</li>
+                        <li>YARA</li>
+                        <li>Bash</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-panel" style="cursor: pointer;" onclick="window.open('blackbook.pdf', '_blank')">
+                    <div class="project-header">
+                        <div class="folder-icon">📄</div>
+                        <div class="project-links">
+                            <!-- Link to the blackbook PDF -->
+                            <a href="blackbook.pdf" target="_blank" aria-label="View Document">🔗</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Blackbook: Ransomware Detection & Prevention</h3>
+                    <div class="project-desc">
+                        <p>Comprehensive research report and documentation detailing the architecture, methodology, and
+                            implementation of the Ransomware Detection and Prevention System.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Research</li>
+                        <li>System Architecture</li>
+                        <li>Security Analysis</li>
+                        <li>Documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="neon-text">04.</span> Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card glass-panel hover-glow">
+                    <div class="cert-badge">🛡️</div>
+                    <div class="cert-info">
+                        <h3>Certified Network Security Practitioner (CNSP)</h3>
+                        <p class="cert-issuer">Issued by The SecOps Group</p>
+                        <p class="cert-date">Achieved: Oct 2023</p>
+                    </div>
+                </div>
+                <div class="cert-card glass-panel hover-glow">
+                    <div class="cert-badge">🎯</div>
+                    <div class="cert-info">
+                        <h3>SOC Fundamentals</h3>
+                        <p class="cert-issuer">TryHackMe</p>
+                        <p class="cert-date">Achieved: Jan 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="neon-text">05.</span> Initiate Connection</h2>
+            <div class="contact-wrapper glass-panel">
+                <p class="contact-desc">I'm currently open to internship opportunities and collaborations on open-source
+                    security projects. Whether you have a question or just want to say hi, my inbox is always open.</p>
+
+                <div class="contact-links">
+                    <a href="mailto:shivamjha7876@gmail.com" class="cyber-button">
+                        <span class="button-text">SEND_EMAIL</span>
+                    </a>
+                    <a href="https://linkedin.com/in/shivamjha7876" target="_blank" class="cyber-button secondary">
+                        <span class="button-text">LINKEDIN_PROFILE</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Privacy Notice -->
+    <footer>
+        <div class="container">
+            <div class="footer-content glass-panel">
+                <div class="footer-logo"><span class="neon-text">SYS</span>_ADMIN</div>
+
+                <div class="copyright">
+                    <p>&copy; 2026 Shivam Jha. Designed with <span class="neon-text">♥</span> & <span
+                            class="neon-text">Security</span>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
